@@ -1,10 +1,80 @@
+* {   
+    box-sizing: border-box;
+    }
 /* Style the header */
 .header { grid-area: 1 / 1 / 2 / 7;
     background-color:#5da16f;
     text-align: center;
     padding: 20px;
 }
+.jumbotron {
+    text-align: center;
+    padding: 0px;
+}
 
+.container-1 .col-sm-4:nth-child(1) {
+    text-align: center;   
+    padding: 50px;
+}
+.container-1 .col-sm-4:nth-child(2) {
+    text-align: center;   
+    
+}
+.container-1 .col-sm-4:nth-child(3) {
+    text-align: center;   
+    padding: 40px;
+}
+.btn {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .btn-lg {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+.container-2 .col-sm-4:nth-child(1) {
+    text-align: center;   
+    padding: 0px;
+}
+.container-2 .col-sm-4:nth-child(2) {
+    text-align: center;   
+    padding: 0px;
+}
+.container-2 .col-sm-4:nth-child(3) {
+    text-align: center;   
+    padding: 0px;
+}
+.image-container {
+    position: relative;
+  }
+  .image-container h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.685);
+    z-index: 1;
+  }
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+  h2 a {
+    color: white;
+  }
+  h2 a:hover {
+    color: white;
+  }
 .footer { grid-area: 7 / 1 / 8 / 7;
     background-color: #5da16f;
     text-align: center;
