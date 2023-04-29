@@ -99,8 +99,9 @@ h1 {
     font-size: small;
     
   }
-.footer { grid-area: 7 / 1 / 8 / 7;
-    background-color: #5da17f;
+.footer { 
+    background-color: #7d6b63;
     text-align: center;
-    padding: 10px;
+    color: white;
+    padding: 20px;
 }
