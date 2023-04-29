@@ -1,13 +1,7 @@
 * {   
     box-sizing: border-box;
     }
-/* Style the header */
-.header { 
-    background-color:#5da17f;
-    text-align: center;
-    padding: 20px;
-   
-}
+    
 h1 {
   font-size: 40px;
 }
