@@ -2,10 +2,14 @@
     box-sizing: border-box;
     }
 /* Style the header */
-.header { grid-area: 1 / 1 / 2 / 7;
-    background-color:#5da16f;
+.header { 
+    background-color:#5da17f;
     text-align: center;
     padding: 20px;
+   
+}
+h1 {
+  font-size: 40px;
 }
 .jumbotron {
     text-align: center;
@@ -14,15 +18,19 @@
 
 .container-1 .col-sm-4:nth-child(1) {
     text-align: center;   
-    padding: 50px;
+    padding: 110px;
 }
 .container-1 .col-sm-4:nth-child(2) {
-    text-align: center;   
+    text-align: center; 
+    font-size: medium;  
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
     
 }
 .container-1 .col-sm-4:nth-child(3) {
     text-align: center;   
-    padding: 40px;
+    padding: 100px;
 }
 .btn {
     background-color: #000000;
@@ -75,8 +83,30 @@
   h2 a:hover {
     color: white;
   }
+  .reviews {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .customer-image {
+    float: left;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 20px;
+    width: 120px;
+    height: 120px;
+    
+  }
+  .customer-review {
+    text-align: justify;
+    padding-left: 120px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: small;
+    
+  }
 .footer { grid-area: 7 / 1 / 8 / 7;
-    background-color: #5da16f;
+    background-color: #5da17f;
     text-align: center;
     padding: 10px;
 }
