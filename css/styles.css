@@ -2,14 +2,14 @@
     box-sizing: border-box;
     }
     
-h1 {
-  font-size: 40px;
-}
 .jumbotron {
     text-align: center;
     padding: 0px;
 }
-
+.contact-heading {
+  text-align: center;
+  padding: 0px;
+}
 .container-1 .col-sm-4:nth-child(1) {
     text-align: center;   
     padding: 110px;
@@ -100,11 +100,31 @@ h1 {
     
   }
   
+  .contact-container-1 .col-6:nth-child(1) {
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+  .owners-image {
+    
+    padding: 40px;
+    width: 411px;
+    height: 416px;
+    
+  }
+  .contact-container-1 .col-6:nth-child(2) {
+    text-align: justify;
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+
+
   .footer-distributed {
     background-color: #7d6b63;
     width: 100%;
     text-align: left;
-    padding-right: 30px;
+    padding-right: 35px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
