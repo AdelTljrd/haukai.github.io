@@ -101,21 +101,34 @@
   }
   
   .contact-container-1 .col-6:nth-child(1) {
-    
     display: flex;
     justify-content: center;
-    
+    align-items: center;  
   }
   .owners-image {
-    
-    padding: 40px;
+    position: relative;
+    text-align: center;
     width: 411px;
     height: 416px;
+    padding-top: 50px;
+    padding-left: 30px;
     
+  }
+  .heading-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .owners-image img {
+    width: 100%;
+    height: auto;
   }
   .contact-container-1 .col-6:nth-child(2) {
     text-align: justify;
-    padding-top: 50px;
+    padding-top: 150px;
     padding-right: 50px;
   }
 
