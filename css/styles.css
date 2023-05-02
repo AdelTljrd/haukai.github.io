@@ -132,6 +132,16 @@
     padding-left: 50px;
   }
 
+  .map {
+    float: left;
+  }
+  .contact-details {
+    text-align: right;
+  }
+  .contact-container-2 .col-sm-6:nth-child(2) {
+    text-align: center;   
+    padding: 0px;
+}
 
   .footer-distributed {
     background-color: #7d6b63;
