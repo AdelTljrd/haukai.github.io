@@ -100,7 +100,7 @@
     
   }
   
-  .contact-container-1 .col-6:nth-child(1) {
+  .contact-container-1 .col-sm-6:nth-child(1) {
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -108,11 +108,10 @@
   .owners-image {
     position: relative;
     text-align: center;
-    width: 411px;
-    height: 416px;
+    width: 550px;
+    height: 300px;
     padding-top: 50px;
-    padding-left: 30px;
-    
+ 
   }
   .heading-container {
     position: absolute;
@@ -126,10 +125,11 @@
     width: 100%;
     height: auto;
   }
-  .contact-container-1 .col-6:nth-child(2) {
+  .contact-container-1 .col-sm-6:nth-child(2) {
     text-align: justify;
     padding-top: 150px;
     padding-right: 50px;
+    padding-left: 50px;
   }
 
 
