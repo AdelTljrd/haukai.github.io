@@ -6,10 +6,7 @@
     text-align: center;
     padding: 0px;
 }
-.contact-heading {
-  text-align: center;
-  padding: 0px;
-}
+
 .container-1 .col-sm-4:nth-child(1) {
     text-align: center;   
     padding: 110px;
@@ -107,8 +104,7 @@
     margin-bottom: -30px;
     padding-top: 55px;
     padding-bottom: 52.5px;
-    background-color: #7d6b63;
-    color: #ffffff;
+    
   }
   .contact-container-1 .col-sm-4:nth-child(2) {
     display: flex;
@@ -116,7 +112,7 @@
     color: #ffffff;
     margin-top: 30px;
     margin-bottom: -30px;
-    background-color: #7d6b63; 
+    
   }
   .owners-image {
     position: relative;
@@ -138,8 +134,7 @@
     padding-bottom: 52.5px;
     padding-right: 40px;
     padding-left: 40px;
-    background-color: #7d6b63;
-    color: #ffffff;
+    
   }
 
   .map {
