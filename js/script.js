@@ -7,3 +7,9 @@ function w3_open() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
   }
+  $(function() {
+    $('main').scrollspy({ target: '#navbar-example2' });
+  });
+
+  
+  
