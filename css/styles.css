@@ -219,7 +219,12 @@
   justify-content: center;
   align-items: center;  
 }
-
+/* Staff hours styles */
+.staff-container-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
  /* Footer styles */
 
 .footer-distributed {
