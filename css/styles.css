@@ -170,6 +170,7 @@
   height: 700px;
   overflow-y: scroll;
   scroll-padding-top: 60px;
+  margin-top: -30px;
 }
 .scroll-container > a {
   display: block;
@@ -179,7 +180,35 @@
 #navbar-example2 {
   position: sticky;
   top: 0;
+  width: 100%;
+  z-index: 1;
 }
+.menu-container-1 .col-sm-6:nth-child(1),
+.menu-container-2 .col-sm-6:nth-child(1),
+.menu-container-3 .col-sm-6:nth-child(1),
+.menu-container-4 .col-sm-6:nth-child(1),
+.menu-container-5 .col-sm-6:nth-child(1),
+.menu-container-6 .col-sm-6:nth-child(1),
+.menu-container-7 .col-sm-6:nth-child(1)  {
+  text-align: center;   
+  padding: 0px;
+  width: 750px;
+  height: 550px;
+}
+
+.menu-container-1 .col-sm-6:nth-child(2), 
+.menu-container-2 .col-sm-6:nth-child(2),
+.menu-container-3 .col-sm-6:nth-child(2),
+.menu-container-4 .col-sm-6:nth-child(2),
+.menu-container-5 .col-sm-6:nth-child(2),
+.menu-container-6 .col-sm-6:nth-child(2),
+.menu-container-7 .col-sm-6:nth-child(2)   {
+  text-align: center;    
+}
+
+
+ /* Footer styles */
+
 .footer-distributed {
     background-color: #7d6b63;
     width: 100%;
@@ -195,8 +224,7 @@
     font-size: 14px;
     margin: 0;
   }
-  /* Footer links */
-  
+   
   .footer-distributed p.footer-links {
     font-size: 18px;
     font-weight: bold;
