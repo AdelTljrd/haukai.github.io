@@ -191,9 +191,6 @@
 .menu-container-6 .col-sm-6:nth-child(1),
 .menu-container-7 .col-sm-6:nth-child(1)  {
   text-align: center;   
-  padding: 0px;
-  width: 750px;
-  height: 550px;
 }
 
 .menu-container-1 .col-sm-6:nth-child(2), 
@@ -203,7 +200,10 @@
 .menu-container-5 .col-sm-6:nth-child(2),
 .menu-container-6 .col-sm-6:nth-child(2),
 .menu-container-7 .col-sm-6:nth-child(2)   {
-  text-align: center;    
+  text-align: center; 
+  padding: 0px;
+  width: 550px;
+  height: 550px;   
 }
 
 
