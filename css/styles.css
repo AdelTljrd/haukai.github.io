@@ -1,17 +1,18 @@
 * {   
     box-sizing: border-box;
-    }
+  }
     
 .jumbotron {
     text-align: center;
     padding: 0px;
 }
-
-.container-1 .col-sm-4:nth-child(1) {
+/* Index page styles */
+.index-container-1 .col-sm-4:nth-child(1) {
     text-align: center;   
-    padding: 110px;
+    padding-top: 130px;
+    padding-bottom: 150px;
 }
-.container-1 .col-sm-4:nth-child(2) {
+.index-container-1 .col-sm-4:nth-child(2) {
     text-align: center; 
     font-size: medium;  
     padding-left: 40px;
@@ -19,11 +20,11 @@
     padding-bottom: 10px;
     
 }
-.container-1 .col-sm-4:nth-child(3) {
+.index-container-1 .col-sm-4:nth-child(3) {
     text-align: center;   
-    padding: 100px;
+    padding-top: 130px;
+    padding-bottom: 180px;
 }
-
 .btn {
     background-color: #000000;
     color: white;
@@ -31,28 +32,27 @@
     font-size: 16px;
     font-weight: bold;
     padding: 10px 20px;
-  }
-  
-  .btn-lg {
+}
+.btn-lg {
     font-size: 20px;
     padding: 12px 24px;
-  }
-.container-2 .col-sm-4:nth-child(1) {
+}
+.index-container-2 .col-sm-4:nth-child(1) {
     text-align: center;   
     padding: 0px;
 }
-.container-2 .col-sm-4:nth-child(2) {
+.index-container-2 .col-sm-4:nth-child(2) {
     text-align: center;   
     padding: 0px;
 }
-.container-2 .col-sm-4:nth-child(3) {
+.index-container-2 .col-sm-4:nth-child(3) {
     text-align: center;   
     padding: 0px;
 }
 .image-container {
     position: relative;
-  }
-  .image-container h2 {
+}
+.image-container h2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -62,42 +62,40 @@
     color: white;
     background-color: rgba(0, 0, 0, 0.685);
     z-index: 1;
-  }
+}
   .image-container img {
     display: block;
     width: 100%;
     height: auto;
     z-index: 0;
-  }
-  h2 a {
+}
+h2 a {
     color: white;
-  }
-  h2 a:hover {
+}
+h2 a:hover {
     color: white;
-  }
-  .reviews {
+}
+.reviews {
     text-align: center;
-    padding-top: 20px;
-  }
-  .customer-image {
+    padding-top: 10px;
+}
+.customer-image {
     float: left;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 0px;
     padding-right: 20px;
     width: 120px;
     height: 120px;
-    
-  }
-  .customer-review {
+}
+.customer-review {
     text-align: justify;
     padding-left: 120px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: small;
-    
-  }
-  .contact-container-1 .col-sm-4:nth-child(1) {
+}
+.contact-container-1 .col-sm-4:nth-child(1) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,23 +103,20 @@
     margin-bottom: -30px;
     padding-top: 55px;
     padding-bottom: 52.5px;
-    
-  }
-  .contact-container-1 .col-sm-4:nth-child(2) {
+}
+.contact-container-1 .col-sm-4:nth-child(2) {
     display: flex;
     justify-content: center;
     color: #ffffff;
     margin-top: 30px;
     margin-bottom: -30px;
-    
-  }
-  .owners-image {
+}
+.owners-image {
     position: relative;
     text-align: center;
     width: 356.5px;
     height: 351.3px;
- 
-   }
+}
   
   .owners-image img {
     width: 100%;
