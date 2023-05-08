@@ -153,9 +153,6 @@ h2 a:hover {
     padding-left: 60px;
     padding-right: 60px;
     margin-top: 30px;
-    
-    
-    
 }
   .contact-container-2 .col-sm-4:nth-child(3) {
     text-align: center;   
@@ -168,7 +165,7 @@ h2 a:hover {
   position: relative;
   height: 700px;
   overflow-y: scroll;
-  scroll-padding-top: 60px;
+  scroll-padding-top: 100px;
   margin-top: -30px;
 }
 .scroll-container > a {
