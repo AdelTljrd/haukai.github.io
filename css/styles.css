@@ -186,7 +186,10 @@ h2 a:hover {
 .menu-container-5 .col-sm-6:nth-child(1),
 .menu-container-6 .col-sm-6:nth-child(1),
 .menu-container-7 .col-sm-6:nth-child(1)  {
-  text-align: center;   
+  display: flex;
+  align-items: center; 
+  padding-left: 40px;
+  padding-bottom: 70px;
 }
 
 .menu-container-1 .col-sm-6:nth-child(2), 
@@ -196,10 +199,20 @@ h2 a:hover {
 .menu-container-5 .col-sm-6:nth-child(2),
 .menu-container-6 .col-sm-6:nth-child(2),
 .menu-container-7 .col-sm-6:nth-child(2)   {
-  text-align: center; 
-  padding: 0px;
-  width: 550px;
-  height: 550px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.menu-image-container {
+  position: relative;
+}
+.menu-image-container img {
+  display: block;
+  width: 70%;
+  height: auto;
+  z-index: 0;
 }
 /* Reservations styles */
 .reserve-container-1 {
