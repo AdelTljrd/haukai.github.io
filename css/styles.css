@@ -101,7 +101,7 @@ h2 a:hover {
     align-items: center;
     margin-top: 0px;
     margin-bottom: -0px;
-    padding-top: 54px;
+    padding-top: 52.5px;
     padding-bottom: 52.5px;
 }
 .contact-container-1 .col-sm-4:nth-child(2) {
@@ -126,7 +126,7 @@ h2 a:hover {
     margin-top: 0px;
     margin-bottom: -0px;
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     padding-right: 40px;
     padding-left: 40px;
 }
@@ -150,7 +150,7 @@ h2 a:hover {
 .contact-details {
     text-align: center;
     margin-top: 26px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
   .contact-container-2 .col-sm-4:nth-child(3) {
     text-align: center;   
@@ -159,7 +159,7 @@ h2 a:hover {
 }
 /* menu page styles */
 .scroll-container {
-  border: 1px solid #ccc;
+  border: 10px solid #ccc;
   position: relative;
   height: 700px;
   overflow-y: scroll;
@@ -209,7 +209,7 @@ h2 a:hover {
 }
 .menu-image-container img {
   display: block;
-  width: 80%;
+  width: 85%;
   height: auto;
   z-index: 0;
 }
@@ -222,6 +222,7 @@ h2 a:hover {
   margin-top: -30px;
 }
 .reserve-container-2 {
+  border: 10px solid #ccc;
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -240,7 +241,7 @@ h2 a:hover {
   align-items: center;
   margin-top: 0px;
   margin-bottom: -0px;
-  padding-top: 52.5px;
+  padding-top: 50px;
   padding-bottom: 52.5px;
 }
 .culture-container-1 .col-sm-4:nth-child(2) {
@@ -294,6 +295,7 @@ h2 a:hover {
 }
 .haka {
   padding-left: 20px;
+  padding-right: 20px;
 }
 .marae {
   padding-left: 20px;
