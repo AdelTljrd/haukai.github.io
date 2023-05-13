@@ -233,7 +233,68 @@ h2 a:hover {
   align-items: center;  
   padding-bottom: 40px;
 }
- /* Footer styles */
+/* Culture & kai styles */
+.culture-container-1 .col-sm-4:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: -0px;
+  padding-top: 55px;
+  padding-bottom: 52.5px;
+}
+.culture-container-1 .col-sm-4:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: -0px;
+}
+.history-image {
+  position: relative;
+  text-align: center;
+}
+.history-image img {
+  width: 100%;
+  height: auto;
+}
+.culture-container-1 .col-sm-4:nth-child(3) {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: -0px;
+  padding-top: 90px;
+  padding-bottom: 52.5px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.recipes {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.culture-container-3 .col-sm-4:nth-child(1) {
+  text-align: center;   
+  padding: 0px;
+}
+.culture-container-3 .col-sm-4:nth-child(2) {
+  text-align: center;   
+  padding: 0px;
+}
+.culture-container-3 .col-sm-4:nth-child(3) {
+  text-align: center;   
+  padding: 0px;
+}
+.culture {
+  text-align: center;
+  padding-top: 20px;
+}
+.language {
+  padding-left: 20px;
+}
+.marae {
+  padding-right: 20px;
+}
+/* Footer styles */
 
 .footer-distributed {
     background-color: #7d6b63;
