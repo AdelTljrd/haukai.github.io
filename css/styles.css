@@ -1,7 +1,20 @@
 * {   
     box-sizing: border-box;
   }
-    
+ 
+.header {
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  background-color: #7d6b63;
+  color: #ffffff;
+}  
+.header-line1 h1{
+  font-size: 86px;
+}
+.header-line2 h1 {
+  font-size: 50px;
+}
 .jumbotron {
     text-align: center;
     padding: 0px;
@@ -101,7 +114,7 @@ h2 a:hover {
   text-align: center;
   margin-top: -30px;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   background-color: #7d6b63;
   color: #ffffff;
@@ -186,7 +199,7 @@ h2 a:hover {
   margin-top: -30px;
   margin-bottom: 30px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   background-color: #7d6b63;
   color: #ffffff;
 }
@@ -250,8 +263,8 @@ h2 a:hover {
   text-align: center;
   margin-top: -30px;
   margin-bottom: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #ffffff;
   
 }
@@ -273,7 +286,7 @@ h2 a:hover {
   text-align: center;
   margin-top: -30px;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   background-color: #7d6b63;
   color: #ffffff;
@@ -290,7 +303,7 @@ h2 a:hover {
   margin-top: -35px;
   margin-bottom: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   background-color: #7d6b63;
   color: #ffffff;
 }
