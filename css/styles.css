@@ -3,7 +3,6 @@
   }
     
 .jumbotron {
-    position: relative;
     text-align: center;
     padding: 0px;
     
@@ -99,10 +98,8 @@ h2 a:hover {
 }
 /* Contact styles */
 .contact-heading {
-  position: relative; 
-  z-index: 1;
   text-align: center;
-  margin-top: -110px;
+  margin-top: -30px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -186,15 +183,15 @@ h2 a:hover {
   top: 0; 
   z-index: 2; 
   text-align: center;
-  margin-top: -100px;
-  margin-bottom: 20px;
+  margin-top: -30px;
+  margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #7d6b63;
   color: #ffffff;
 }
 .scroll-container {
-  border: 10px solid #ccc;
+  border: 15px solid #ccc;
   position: relative;
   height: 700px;
   overflow-y: scroll;
@@ -250,10 +247,8 @@ h2 a:hover {
 }
 /* Reservations styles */
 .reserve-heading {
-  position: relative; 
-  z-index: 1;
   text-align: center;
-  margin-top: -110px;
+  margin-top: -30px;
   margin-bottom: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -268,17 +263,15 @@ h2 a:hover {
   
 }
 .reserve-container-2 {
-  border: 10px solid #ccc;
+  border: 15px solid #ccc;
   display: flex;
   justify-content: center;
   align-items: center;  
 }
 /* Staff hours styles */
 .staff-heading {
-  position: relative; 
-  z-index: 1;
   text-align: center;
-  margin-top: -110px;
+  margin-top: -30px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -293,10 +286,8 @@ h2 a:hover {
 }
 /* Culture & kai styles */
 .culture-heading {
-  position: relative; 
-  z-index: 1;
   text-align: center;
-  margin-top: -110px;
+  margin-top: -35px;
   margin-bottom: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
