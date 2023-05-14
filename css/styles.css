@@ -6,47 +6,41 @@
   text-align: right;
   padding-right: 20px;
   padding-bottom: 5px;
-  margin-top: -10px;
+  padding-top: 5px;
   background-color: #7d6b63;
   color: #ffffff;
 }  
 .header-line1 h1{
   font-size: 86px;
+  line-height: 0.8;
 }
 .header-line2 h1 {
   font-size: 50px;
 }
-@media screen and (max-width:600px) {
-  .header-line1 h1{
-    font-size: 43px;
-  }
-  .header-line2 h1 {
-    font-size: 25px;
-  }
-}
+
+
 .jumbotron {
     text-align: center;
-    padding: 0px;
-    
+    padding: 0px;    
 }
 /* Index page styles */
 .index-container-1 .col-sm-4:nth-child(1) {
     text-align: center;   
-    padding-top: 130px;
-    padding-bottom: 150px;
+    padding-top: 110px;
+    padding-bottom: 140px;
 }
 .index-container-1 .col-sm-4:nth-child(2) {
     text-align: center; 
     font-size: medium;  
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 10px;
+    margin-top: -15px;
     
 }
 .index-container-1 .col-sm-4:nth-child(3) {
     text-align: center;   
-    padding-top: 130px;
-    padding-bottom: 180px;
+    padding-top: 110px;
+    padding-bottom: 140px;
 }
 .btn {
     background-color: #000000;
@@ -104,19 +98,17 @@ h2 a:hover {
 }
 .customer-image {
     float: left;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-right: 20px;
+    display: block;
     width: 120px;
     height: 120px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .customer-review {
     text-align: justify;
-    padding-left: 120px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
     font-size: small;
+    padding-left: 10px;
 }
 /* Contact styles */
 .contact-heading {
@@ -204,7 +196,6 @@ h2 a:hover {
   text-align: right;
   padding-right: 20px;
   padding-bottom: 10px;
-  
   background-color: #7d6b63;
   color: #ffffff;
 }  
@@ -494,6 +485,41 @@ h3 a:hover {
   /* Media Queries */
   
   @media (max-width: 600px) {
+    .menu-header {
+      text-align: right;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-top: 10px;
+      margin-bottom: -10px;
+      background-color: #7d6b63;
+      color: #ffffff;
+    }  
+    .header {
+      text-align: right;
+      padding-right: 5px;
+      padding-bottom: 0px;
+      padding-top: 1px;
+      margin-bottom: -10px;
+      background-color: #7d6b63;
+      color: #ffffff;
+    }  
+    .header-line1 h1{
+      font-size: 43px;
+      line-height: 0.4;
+    }
+    .header-line2 h1 {
+      font-size: 25px;
+    }
+    .index-container-1 .col-sm-4:nth-child(1) {
+      text-align: center;   
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+    .index-container-1 .col-sm-4:nth-child(3) {
+      text-align: center;   
+      padding-top: 50px;
+      padding-bottom: 90px;
+    }
     .footer-distributed .footer-left, .footer-distributed .footer-right {
       text-align: center;
     }
