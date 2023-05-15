@@ -1,3 +1,4 @@
+/* Sidebar navigation script */
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
@@ -7,7 +8,7 @@ function w3_open() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
   }
-  
+/* Anchor links to menu itmes script */  
   (function(document, history, location) {
     var HISTORY_SUPPORT = !!(history && history.pushState);
   
