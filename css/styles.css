@@ -343,15 +343,15 @@ margin-top: 10px;
 background-color: #7d6b63;
 color: #ffffff;
 }
-.culture-container-3 .col-sm-4:nth-child(1) {
+.culture-container-2 .col-sm-4:nth-child(1) {
 text-align: center;   
 padding: 0px;
 }
-.culture-container-3 .col-sm-4:nth-child(2) {
+.culture-container-2 .col-sm-4:nth-child(2) {
 text-align: center;   
 padding: 0px;
 }
-.culture-container-3 .col-sm-4:nth-child(3) {
+.culture-container-2 .col-sm-4:nth-child(3) {
 text-align: center;   
 padding: 0px;
 }
