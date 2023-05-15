@@ -1,7 +1,7 @@
 * {   
   box-sizing: border-box;
 }
-
+/* Header styles */
 .header {
 text-align: right;
 padding-right: 20px;
@@ -17,8 +17,6 @@ line-height: 0.8;
 .header-line2 h1 {
 font-size: 50px;
 }
-
-
 .jumbotron {
   text-align: center;
   padding: 0px;    
@@ -35,7 +33,6 @@ font-size: 50px;
   padding-left: 40px;
   padding-right: 40px;
   margin-top: -15px;
-  
 }
 .index-container-1 .col-sm-4:nth-child(3) {
   text-align: center;   
@@ -110,7 +107,7 @@ h2 a:hover {
   font-size: small;
   padding-left: 10px;
 }
-/* Contact styles */
+/* Contact page styles */
 .contact-heading {
 text-align: center;
 margin-top: -30px;
@@ -170,7 +167,6 @@ overflow: hidden;
 width: 100%;
 padding-top: 70.8%;
 margin-top: 26px;
-
 }  
 .responsive-iframe {
   position: absolute;
@@ -203,13 +199,11 @@ color: #ffffff;
 .menu-heading {
 text-align: center;
 margin-top: -30px;
-
 padding-top: 10px;
 padding-bottom: 5px;
 background-color: #7d6b63;
 color: #ffffff;
 }
-
 #navbar-example2 {
 position: sticky;
 top: 0;
@@ -228,7 +222,6 @@ align-items: center;
 padding-left: 40px;
 padding-bottom: 70px;
 }
-
 .menu-container-1 .col-sm-6:nth-child(2), 
 .menu-container-2 .col-sm-6:nth-child(2),
 .menu-container-3 .col-sm-6:nth-child(2),
@@ -242,7 +235,6 @@ align-items: center;
 padding-bottom: 70px;
 padding-left: 40px;
 }
-
 .menu-image-container {
 position: relative;
 }
@@ -252,7 +244,7 @@ width: 85%;
 height: auto;
 z-index: 0;
 }
-/* Reservations styles */
+/* Reservations page styles */
 .reserve-heading {
 text-align: center;
 margin-top: -30px;
@@ -260,14 +252,12 @@ margin-bottom: 5px;
 padding-top: 5px;
 padding-bottom: 5px;
 background-color: #ffffff;
-
 }
 .reserve-container-1 {
 text-align: center;   
 padding-bottom: 20px;
 padding-top: 20px;
 background-color: #7d6b63;
-
 }
 .reserve-container-2 {
 border: 15px solid #ccc;
@@ -275,7 +265,7 @@ display: flex;
 justify-content: center;
 align-items: center;  
 }
-/* Staff hours styles */
+/* Staff hours page styles */
 .staff-heading {
 text-align: center;
 margin-top: -30px;
@@ -291,7 +281,7 @@ justify-content: center;
 align-items: center;  
 padding-bottom: 20px;
 }
-/* Culture & kai styles */
+/* Culture & kai page styles */
 .culture-heading {
 text-align: center;
 margin-top: -35px;
@@ -400,7 +390,6 @@ padding-left: 20px;
 padding-right: 20px;
 }
 /* Footer styles */
-
 .footer-distributed {
   background-color: #7d6b63;
   width: 100%;
@@ -410,13 +399,11 @@ padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 .footer-distributed .footer-left p {
   color: #ffffff;
   font-size: 14px;
   margin: 0;
 }
- 
 .footer-distributed p.footer-links {
   font-size: 18px;
   font-weight: bold;
@@ -425,7 +412,6 @@ padding-right: 20px;
   padding: 0;
   transition: ease .25s;
 }
-
 .footer-distributed p.footer-links a {
   display: inline-block;
   line-height: 1.8;
@@ -433,7 +419,6 @@ padding-right: 20px;
   color: inherit;
   transition: ease .25s;
 }
-
 .footer-distributed .footer-links a:before {
   content: "·";
   font-size: 20px;
@@ -442,22 +427,18 @@ padding-right: 20px;
   display: inline-block;
   padding-right: 5px;
 }
-
 .footer-distributed .footer-links .link-1:before {
   content: none;
 }
-
 .footer-distributed .footer-right {
   float: right;
   margin-top: 6px;
   max-width: 180px;
 }
-
 .footer-distributed .footer-right a {
   display: inline-block;
   width: 35px;
   height: 35px;
-  
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
@@ -466,13 +447,9 @@ padding-right: 20px;
   margin-left: 20px;
   transition:all .25s;
 }
-
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
-
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
-
 /* Media Queries */
-
 @media (max-width: 600px) {
   .menu-header {
     text-align: right;
