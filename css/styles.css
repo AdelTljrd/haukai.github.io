@@ -1,6 +1,13 @@
 * {   
   box-sizing: border-box;
 }
+#mySidebar {
+  display:none;
+  z-index:5;
+}
+#myOverlay {
+  cursor:pointer;
+}
 /* Header styles */
 .header {
   text-align: right;
@@ -178,138 +185,138 @@ h2 a:hover, h3 a:hover {
 }
 /* menu page styles */
 .menu-header {
-text-align: right;
-padding-right: 20px;
-padding-bottom: 5px;
-padding-top: 10px;
-background-color: #7d6b63;
-color: #ffffff;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  background-color: #7d6b63;
+  color: #ffffff;
 }  
 .menu-heading {
-text-align: center;
-margin-top: -30px;
-padding-top: 10px;
-padding-bottom: 5px;
-background-color: #7d6b63;
-color: #ffffff;
+  text-align: center;
+  margin-top: -30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #7d6b63;
+  color: #ffffff;
 }
 #navbar-example2 {
-position: sticky;
-top: 0;
-width: 100%;
-z-index: 1;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .menu-container-1 .col-sm-6:nth-child(1), .menu-container-2 .col-sm-6:nth-child(1), .menu-container-3 .col-sm-6:nth-child(1), .menu-container-4 .col-sm-6:nth-child(1), .menu-container-5 .col-sm-6:nth-child(1), .menu-container-6 .col-sm-6:nth-child(1), .menu-container-7 .col-sm-6:nth-child(1)  {
-display: flex;
-align-items: center; 
-padding-left: 40px;
-padding-bottom: 70px;
+  display: flex;
+  align-items: center; 
+  padding-left: 40px;
+  padding-bottom: 70px;
 }
 .menu-container-1 .col-sm-6:nth-child(2), .menu-container-2 .col-sm-6:nth-child(2), .menu-container-3 .col-sm-6:nth-child(2), .menu-container-4 .col-sm-6:nth-child(2), .menu-container-5 .col-sm-6:nth-child(2), .menu-container-6 .col-sm-6:nth-child(2), .menu-container-7 .col-sm-6:nth-child(2)   {
-display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom: 70px;
-padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+  padding-left: 40px;
 }
 .menu-image-container {
-position: relative;
+  position: relative;
 }
 .menu-image-container img {
-display: block;
-width: 85%;
-height: auto;
-z-index: 0;
+  display: block;
+  width: 85%;
+  height: auto;
+  z-index: 0;
 }
 /* Reservations page styles */
 .reserve-heading {
-text-align: center;
-margin-top: -30px;
-margin-bottom: 5px;
-padding-top: 5px;
-padding-bottom: 5px;
-background-color: #ffffff;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ffffff;
 }
 .reserve-container-1 {
-text-align: center;   
-padding-bottom: 20px;
-padding-top: 20px;
-background-color: #7d6b63;
+  text-align: center;   
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #7d6b63;
 }
 .reserve-container-2 {
-border: 15px solid #ccc;
-display: flex;
-justify-content: center;
-align-items: center;  
+  border: 15px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 /* Staff hours page styles */
 .staff-container-1{
-display: flex;
-justify-content: center;
-align-items: center;  
-padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 20px;
 }
 /* Culture & kai page styles */
 .culture-heading {
-text-align: center;
-margin-top: -35px;
-margin-bottom: 10px;
-padding-top: 10px;
-padding-bottom: 5px;
-background-color: #7d6b63;
-color: #ffffff;
+  text-align: center;
+  margin-top: -35px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #7d6b63;
+  color: #ffffff;
 }
 .culture-container-1 .col-sm-4:nth-child(1) {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 0px;
-margin-bottom: -0px;
-padding-top: 50px;
-padding-bottom: 52.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: -0px;
+  padding-top: 50px;
+  padding-bottom: 52.5px;
 }
 .culture-container-1 .col-sm-4:nth-child(2) {
-display: flex;
-justify-content: center;
-align-items: center;
-color: #ffffff;
-margin-top: 0px;
-margin-bottom: -0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: -0px;
 }
 .history-image {
-position: relative;
-text-align: center;
+  position: relative;
+  text-align: center;
 }
 .culture-container-1 .col-sm-4:nth-child(3) {
-text-align: center;
-margin-top: 0px;
-margin-bottom: -0px;
-padding-top: 90px;
-padding-bottom: 50px;
-padding-right: 40px;
-padding-left: 40px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: -0px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 .recipes-heading {
-text-align: center;
-padding-top: 10px;
-padding-bottom: 10px;
-margin-top: 10px;
-background-color: #7d6b63;
-color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-color: #7d6b63;
+  color: #ffffff;
 }
 .culture-heading2 {
-text-align: center;
-padding-top: 10px;
-padding-bottom: 10px;
-background-color: #7d6b63;
-color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #7d6b63;
+  color: #ffffff;
 }
 .language {
-padding-left: 20px;
+  padding-left: 20px;
 }
 .haka, .marae {
-padding-left: 20px;
-padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* Footer styles */
 .footer-distributed {
