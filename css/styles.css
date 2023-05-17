@@ -28,6 +28,17 @@ font-size: 50px;
   text-align: center;
   padding: 0px;    
 }
+.col-sm-4 h2, .contact-heading h2, .menu-heading h2, .reserve-heading h2, .culture-heading h2, .staff-heading h2{
+  font-size: 31px;
+  font-weight: bold;
+}
+.menu-container-1 h3, .culture-container-1 h3, .recipes-heading h3, .culture-container-2 h3, .culture-heading2 h3, .contact-container-1 h3, .details-heading h3, .reviews h3 {
+  font-size: 26px;
+  font-weight:500
+}
+.contact-details h4, .culture-container-3 h4 {
+  font-weight: 500;
+}
 /* Index page styles */
 .index-container-1 .col-sm-4:nth-child(1), .index-container-1 .col-sm-4:nth-child(3) {
   text-align: center;   
@@ -36,7 +47,7 @@ font-size: 50px;
 }
 .index-container-1 .col-sm-4:nth-child(2) {
   text-align: center; 
-  font-size: medium;  
+  font-size: 17px;  
   padding-left: 40px;
   padding-right: 40px;
   margin-top: -15px;
@@ -45,12 +56,12 @@ font-size: 50px;
   background-color: #000000;
   color: white;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
   padding: 10px 20px;
 }
 .btn-lg {
-  font-size: 20px;
+  font-size: 25px;
   padding: 12px 24px;
 }
 .index-container-2 .col-sm-4:nth-child(1), .index-container-2 .col-sm-4:nth-child(2), .index-container-2 .col-sm-4:nth-child(3), .culture-container-2 .col-sm-4:nth-child(1), .culture-container-2 .col-sm-4:nth-child(2), .culture-container-2 .col-sm-4:nth-child(3) {
@@ -86,6 +97,10 @@ h2 a:hover, h3 a:hover {
 .reviews {
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: #7d6b63d2;
+  color: #ffffff;
 }
 .customer-image {
   float: left;
@@ -98,8 +113,9 @@ h2 a:hover, h3 a:hover {
 }
 .customer-review {
   text-align: justify;
-  font-size: small;
+  font-size: 16px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 /* Contact page styles */
 .contact-heading,
@@ -143,10 +159,10 @@ h2 a:hover, h3 a:hover {
   text-align: center;
   margin-top: 0px;
   margin-bottom: -0px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 40px;
   padding-right: 40px;
   padding-left: 40px;
+  font-size: 16px;
 }
 .details-heading {
   text-align: center;
@@ -154,7 +170,7 @@ h2 a:hover, h3 a:hover {
   padding-bottom: 10px;
   margin-top: 10px;
   margin-bottom: -26px;
-  background-color: #7d6b63;
+  background-color: #7d6b63d2;
   color: #ffffff;
 }
 .map {
@@ -176,7 +192,7 @@ h2 a:hover, h3 a:hover {
 .contact-details {
   text-align: center;
   margin-top: 26px;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 .contact-container-2 .col-sm-4:nth-child(3) {
   text-align: center;   
@@ -205,12 +221,25 @@ h2 a:hover, h3 a:hover {
   top: 0;
   width: 100%;
   z-index: 1;
+  font-size: 18px;
+  background-color: #7d6b63d2;
+  color: #ffffff;
+}
+#navbar-example2 a {
+  color: #ffffff;
+}
+.nav-pills .nav-link:hover {
+  background-color: #7d6b63;
+}
+.nav-pills .nav-link:visited {
+  background-color: #7d6b63;
 }
 .menu-container-1 .col-sm-6:nth-child(1), .menu-container-2 .col-sm-6:nth-child(1), .menu-container-3 .col-sm-6:nth-child(1), .menu-container-4 .col-sm-6:nth-child(1), .menu-container-5 .col-sm-6:nth-child(1), .menu-container-6 .col-sm-6:nth-child(1), .menu-container-7 .col-sm-6:nth-child(1)  {
   display: flex;
   align-items: center; 
   padding-left: 40px;
   padding-bottom: 70px;
+  font-size: 16px;
 }
 .menu-container-1 .col-sm-6:nth-child(2), .menu-container-2 .col-sm-6:nth-child(2), .menu-container-3 .col-sm-6:nth-child(2), .menu-container-4 .col-sm-6:nth-child(2), .menu-container-5 .col-sm-6:nth-child(2), .menu-container-6 .col-sm-6:nth-child(2), .menu-container-7 .col-sm-6:nth-child(2)   {
   display: flex;
@@ -232,16 +261,16 @@ h2 a:hover, h3 a:hover {
 .reserve-heading {
   text-align: center;
   margin-top: -30px;
-  margin-bottom: 5px;
   padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #ffffff;
+  padding-bottom: 10px;
+  background-color: #7d6b63;
+  color: #ffffff;
 }
 .reserve-container-1 {
   text-align: center;   
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #7d6b63;
+  background-color: #7d6b63d2;
 }
 .reserve-container-2 {
   border: 15px solid #ccc;
@@ -289,9 +318,10 @@ h2 a:hover, h3 a:hover {
 }
 .culture-container-1 .col-sm-4:nth-child(3) {
   text-align: center;
+  font-size: 16px;
   margin-top: 0px;
   margin-bottom: -0px;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 50px;
   padding-right: 40px;
   padding-left: 40px;
@@ -301,22 +331,24 @@ h2 a:hover, h3 a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
-  background-color: #7d6b63;
+  background-color: #7d6b63d2;
   color: #ffffff;
 }
 .culture-heading2 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #7d6b63;
+  background-color: #7d6b63d2;
   color: #ffffff;
 }
 .language {
   padding-left: 20px;
+  font-size: 16px;
 }
 .haka, .marae {
   padding-left: 20px;
   padding-right: 20px;
+  font-size: 16px;
 }
 /* Footer styles */
 .footer-distributed {
@@ -380,6 +412,24 @@ h2 a:hover, h3 a:hover {
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 /* Media Queries */
 @media (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+  .col-sm-4 h2, .contact-heading h2, .menu-heading h2, .reserve-heading h2, .culture-heading h2, .staff-heading h2 {
+    font-size: 21px;
+    font-weight: bold;
+  } 
+  .btn-lg, .btn {
+    font-size: 18px;
+  }
+  .menu-container-1 h3, .culture-container-1 h3, .recipes-heading h3, .culture-container-2 h3, .culture-heading2 h3, .contact-container-1 h3, .details-heading h3, .reviews h2 {
+    font-size: 18px;
+    font-weight:500
+  }
+  .contact-details h4, .culture-container-3 h4 {
+    font-size: 17px;
+    font-weight: 500;
+  }
   .menu-header {
     text-align: right;
     padding-right: 5px;
@@ -392,7 +442,7 @@ h2 a:hover, h3 a:hover {
   .header {
     text-align: right;
     padding-right: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 1px;
     padding-top: 1px;
     margin-bottom: -10px;
     background-color: #7d6b63;
@@ -407,13 +457,71 @@ h2 a:hover, h3 a:hover {
   }
   .index-container-1 .col-sm-4:nth-child(1) {
     text-align: center;   
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 60px;
   }
   .index-container-1 .col-sm-4:nth-child(3) {
     text-align: center;   
     padding-top: 50px;
     padding-bottom: 90px;
+  }
+  .contact-details {
+    text-align: center;
+    margin-top: 26px;
+    padding-top: 1px;
+  }
+  .contact-container-1 .col-sm-4:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: -0px;
+    padding-top: 40px;
+    padding-bottom: 52.5px;
+  }
+  .contact-container-1 .col-sm-4:nth-child(3) {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -0px;
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+  }
+  #navbar-example2 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 15px;
+  }
+  .menu-container-1 .col-sm-6:nth-child(1), .menu-container-2 .col-sm-6:nth-child(1), .menu-container-3 .col-sm-6:nth-child(1), .menu-container-4 .col-sm-6:nth-child(1), .menu-container-5 .col-sm-6:nth-child(1), .menu-container-6 .col-sm-6:nth-child(1), .menu-container-7 .col-sm-6:nth-child(1)  {
+    display: flex;
+    align-items: center; 
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 14px;
+  }
+  .menu-container-1 .col-sm-6:nth-child(2), .menu-container-2 .col-sm-6:nth-child(2), .menu-container-3 .col-sm-6:nth-child(2), .menu-container-4 .col-sm-6:nth-child(2), .menu-container-5 .col-sm-6:nth-child(2), .menu-container-6 .col-sm-6:nth-child(2), .menu-container-7 .col-sm-6:nth-child(2)   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-left: 90px;
+  }
+  .reserve-container-1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .culture-container-1 .col-sm-4:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: -0px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .footer-distributed .footer-left, .footer-distributed .footer-right {
     text-align: center;
