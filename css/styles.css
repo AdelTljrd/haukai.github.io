@@ -443,7 +443,7 @@ h2 a:hover, h3 a:hover {
     text-align: right;
     padding-right: 5px;
     padding-bottom: 1px;
-    padding-top: 2px;
+    padding-top: 4px;
     margin-bottom: -10px;
     background-color: #7d6b63;
     color: #ffffff;
@@ -507,7 +507,7 @@ h2 a:hover, h3 a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 70px;
-    padding-left: 90px;
+    padding-left: 70px;
   }
   .reserve-container-1 {
     display: flex;
