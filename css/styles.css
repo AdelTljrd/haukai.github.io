@@ -463,6 +463,10 @@ h2 a:hover, h3 a:hover {
   .contact-details h4, .culture-container-3 h4 {
     font-size: 17px;
   }
+  #navbar, #demo {
+    
+    font-size: 16px;
+  }
   .menu-header {
     text-align: right;
     padding-right: 5px;
