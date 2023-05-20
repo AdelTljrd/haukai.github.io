@@ -6,7 +6,7 @@
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 }
 #navbar a:hover, #demo a:hover {
   text-decoration: none;
@@ -463,8 +463,10 @@ h2 a:hover, h3 a:hover {
   .contact-details h4, .culture-container-3 h4 {
     font-size: 17px;
   }
-  #navbar, #demo {
-    
+  #navbar {
+    font-size: 20px;
+  }
+  #demo {
     font-size: 16px;
   }
   .menu-header {
