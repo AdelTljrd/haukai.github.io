@@ -16,23 +16,27 @@
     <script src="../js/script.js"></script>
   </head>
   <body>
-  <!-- Sidebar navigation -->
+  <!-- Navigation bar -->
   <nav>
-    <div class="w3-sidebar w3-bar-block" id="mySidebar">
-      <button class="w3-bar-item w3-button w3-xxlarge" onclick="w3_close()">Close &times;</button>
+    <div id="navbar" class="w3-bar w3-card-4 ">
       <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small">About & Contact</a>
+      <a href="../menu/menu.html" class="w3-bar-item w3-button w3-hide-small">Menu</a>
+      <a href="../reservations/reservations.html" class="w3-bar-item w3-button w3-hide-small">Reservations</a>
+      <a href="../culture/culture.html" class="w3-bar-item w3-button w3-hide-small">Culture & Kai</a>
+      <a href="../staff/staff.html" class="w3-bar-item w3-button w3-hide-small">Staff Roster</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+  
+    <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
       <a href="contact.html" class="w3-bar-item w3-button">About & Contact</a>
       <a href="../menu/menu.html" class="w3-bar-item w3-button">Menu</a>
       <a href="../reservations/reservations.html" class="w3-bar-item w3-button">Reservations</a>
       <a href="../culture/culture.html" class="w3-bar-item w3-button">Culture & Kai</a>
       <a href="../staff/staff.html" class="w3-bar-item w3-button">Staff Roster</a>
     </div>
-    <div class="w3-overlay" onclick="w3_close()" id="myOverlay"></div>
-    <div>
-      <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
-    </div>
   </nav>
-   <!-- Header -->   
+  <!-- Header -->   
   <header>
     <div class="header">
       <div class="header-line1">
