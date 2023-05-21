@@ -92,6 +92,9 @@ p {
 }
 .image-container {
   position: relative;
+  width: 100%; /* Set the width to 100% of the parent container */
+  max-width: 100%; /* Restrict the maximum width to the viewport size */
+  height: auto; /* Maintain the aspect ratio */
 }
 .image-container h2, .image-container h3 {
   position: absolute;
@@ -435,9 +438,10 @@ h2 a:hover, h3 a:hover {
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 /* Media Queries */
-@media (max-width: 600px) {
-  img {
-    width: 100%;
+@media only screen and (max-width: 768px){
+  .image-container {
+    width: 97%; /* Adjust the width as needed for mobile devices */
+    max-width: 97%; /* Restrict the maximum width for smaller screens */
   }
   p {
     font-size: 15px;
