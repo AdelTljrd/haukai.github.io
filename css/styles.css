@@ -106,7 +106,7 @@ p {
 }
 .image-container img {
   display: block;
-  width: 100%;
+  width: 99%;
   height: auto;
   z-index: 0;
 }
