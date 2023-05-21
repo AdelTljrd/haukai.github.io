@@ -106,7 +106,7 @@ p {
 }
 .image-container img {
   display: block;
-  width: 99%;
+  width: 100%;
   height: auto;
   z-index: 0;
 }
@@ -436,6 +436,9 @@ h2 a:hover, h3 a:hover {
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 /* Media Queries */
 @media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
   p {
     font-size: 15px;
   }
