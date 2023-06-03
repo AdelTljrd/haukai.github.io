@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName  "Restricted access "
-AuthUserFile  "C:/wamp64/.htpasswd "
+AuthUserFile  "C:/wamp64/www/haukai-1/.htpasswd "
 Require valid-user
